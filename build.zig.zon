@@ -1,0 +1,17 @@
+.{
+    .name = .spirv_headers,
+    .version = "1.5.5",
+    .fingerprint = 0x90f5e1ea43b4bd6b, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/KhronosGroup/SPIRV-Headers?ref=main#7168a5ad041f6b6b9170f027c7417f98a2056ff0",
+            .hash = "N-V-__8AADmZOQC0IpnQZZX4A8G2tTsk6JFFMt3B1bJnbGeI",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+    },
+}
